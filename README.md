@@ -13,10 +13,11 @@ $ bower install --save angular-horizontal-timeline
 To use the directive, include the angular-horizontal-timeline's javascript and css files in your web page:
 
 ```
-<script src="angular-horizontal-timeline.js"></script>
+<script src="JedioGalaxyHistory.js"></script>
 
 <link rel="stylesheet" href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="timeline.less">
+<link rel="stylesheet" href="JedioGalaxyHistory_style.less">
+
 ```
 
 # Add module dependency

@@ -23,3 +23,13 @@ To use the directive, include the angular-horizontal-timeline's javascript and c
 ```
 var GalaxyApp = angular.module('GalaxyApp', ['angular-horizontal-timeline']);
 ```
+
+
+# Usage
+```
+                <Jedio-GalaxyHistory-Timeline selected-event="selected"
+                                              events="events"
+                                              currentday="currentday"
+                                    >
+                </Jedio-GalaxyHistory-Timeline>
+```
