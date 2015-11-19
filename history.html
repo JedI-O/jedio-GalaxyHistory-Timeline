@@ -1,0 +1,54 @@
+
+<!doctype html>
+<html>
+<title> Jedio-GalaxyHistory-Timeline </title>
+<head>
+
+<meta charset="utf-8">
+
+<!-- bower:js -->
+<script src="vendor/angular/angular.js"></script>
+<script src="vendor/moment/moment.js"></script>
+<script src="vendor/moment-range/lib/moment-range.js"></script>
+<script src="vendor/angular-sanitize/angular-sanitize.js"></script>
+<!-- endbower -->
+
+
+<script src="angular-horizontal-timeline.js"></script>
+
+<link rel="stylesheet" href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="timeline.less">
+
+</head>
+
+ <body  ng-app="GalaxyApp" ng-controller="GalaxyCtrl">
+
+ <div class="row">
+
+<div  class="col-md-2"></div>
+
+ <div class="panel  col-md-8" style="height:888px;background-image: url('jedo.png');">
+   <div class="col-md-2"></div>
+<h1>Jedio-GalaxyHistory-Timeline</h1>
+  <br>
+  <div class="row">
+     <div class="col-md-2"></div>
+	<div  class="col-md-8 col-xs-8">
+
+                <Jedio-GalaxyHistory-Timeline selected-event="selected"
+                                              events="events"
+                                              currentday="currentday"
+                                    >
+                </Jedio-GalaxyHistory-Timeline>
+
+
+
+	</div>
+
+
+</div>
+
+</div>
+
+</body>
+</html>

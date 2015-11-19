@@ -1,6 +1,25 @@
-# jedio-timelime
-<<<<<<< HEAD
+# jedio-GalaxyHistory-Timeline
+
 An AngularJS based TimeLine with day / month / year view for HTML content eventsss
-=======
-An AngularJS based TimeLine with day / month / year view for HTML content eventsss
->>>>>>> 89bd5ae33c15d7156eba6daaf98c8abbec3c8f46
+
+# Install
+You can download all necessary angular-horizontal-timeline files manually or install it with bower:
+
+```
+$ bower install --save angular-horizontal-timeline
+```
+
+# Load
+To use the directive, include the angular-horizontal-timeline's javascript and css files in your web page:
+
+```
+<script src="angular-horizontal-timeline.js"></script>
+
+<link rel="stylesheet" href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="timeline.less">
+```
+
+# Add module dependency
+```
+var GalaxyApp = angular.module('GalaxyApp', ['angular-horizontal-timeline']);
+```
